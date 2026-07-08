@@ -4,7 +4,7 @@ import SwiftUI
 enum Theme {
     static let accent = Color(hex: "5C6BC0")
     static let background = Color(hex: "0E1020")
-    static let card = Color(hex: "0E1020").opacity(0.001).blendMode(.normal) // overridden below
+    static let card = Color(hex: "0E1020").opacity(0.001) // overridden below
     static let cardSurface = Color.white.opacity(0.06)
     static let textPrimary = Color.white.opacity(0.94)
     static let textSecondary = Color.white.opacity(0.6)
